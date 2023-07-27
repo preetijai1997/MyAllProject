@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Agent Portal Test">
+<listeners>
+         
+         <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"> </listener>
+</listeners>
+  <test name="Agent Portal Testing">
+  
+  <classes>
+  <class name="com.ro.qa.testcase.LoginPageTest"></class>
+  <class name="com.ro.qa.testcase.HomePageTest"></class>
+  <class name="com.ro.qa.testcase.RegistrationTest"></class>
+    <class name="com.ro.qa.testcase.CardLoadTest"></class>
+  </classes>
+    
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

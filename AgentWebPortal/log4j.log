@@ -1,0 +1,25 @@
+2022-09-22 13:05:50 INFO  Log:25 - This is beforeSuite Method
+2022-09-22 13:05:57 INFO  Log:13 - =====================================wordPressTest TEST START=========================================
+2022-09-22 13:05:57 INFO  Log:25 - Entering User Name
+2022-09-22 13:05:57 INFO  Log:25 - Entering User Password
+2022-09-22 13:06:00 INFO  Log:25 - This is afterSuite Method
+2022-09-22 13:07:37 INFO  Log:25 - This is beforeSuite Method
+2022-09-22 13:07:41 INFO  Log:13 - =====================================wordPressTest TEST START=========================================
+2022-09-22 13:07:41 INFO  Log:25 - Entering User Name
+2022-09-22 13:07:41 INFO  Log:25 - Entering User Password
+2022-09-22 13:07:41 INFO  Log:25 - This is afterSuite Method
+2022-09-22 14:12:28 INFO  Log:25 - This is beforeSuite Method
+2022-09-22 14:12:32 INFO  Log:13 - =====================================wordPressTest TEST START=========================================
+2022-09-22 14:12:32 INFO  Log:25 - Entering User Name
+2022-09-22 14:12:32 INFO  Log:25 - Entering User Password
+2022-09-22 14:12:33 INFO  Log:25 - Click on Login Button
+2022-09-22 14:12:33 INFO  Log:25 - This is afterSuite Method
+2022-09-22 14:16:40 INFO  Log:25 - This is beforeSuite Method
+2022-09-22 14:16:44 INFO  Log:13 - =====================================wordPressTest TEST START=========================================
+2022-09-22 14:16:44 INFO  Log:25 - Entering User Name
+2022-09-22 14:16:44 INFO  Log:25 - Entering User Password
+2022-09-22 14:16:44 INFO  Log:25 - Click on Login Button
+2022-09-22 14:16:44 INFO  Log:25 - Home Page
+2022-09-22 14:16:44 INFO  Log:25 - Get Current URL
+2022-09-22 14:16:44 INFO  Log:25 - Validate the URL
+2022-09-22 14:16:44 INFO  Log:25 - This is afterSuite Method

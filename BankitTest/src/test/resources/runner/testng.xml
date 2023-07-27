@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+   
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+<listener class-name="listeners.CustomListener"/>
+</listeners>
+
+  <test name=" Login Test">
+    <classes>
+      <class name="testcase.LoginTest"/>
+      
+    </classes>
+  </test> 
+ 
+   <!--
+  <test name="DMT Test">
+    <classes>
+      <class name="testcase.DmtTest"/> 
+    </classes>
+  </test> 
+ -->
+
+
+   <test name="RentPay Test">
+    <classes>
+    <class name="testcase.RentPaymentClass"/>   
+    </classes>
+    </test>
+
+     
+   <test name="Excel Test">
+    <classes>
+      <class name="utilitity.ExcelReader">
+      <methods>
+      <exclude name="ExcelReadeing"/>
+      <include name="RentPayment"/>
+      </methods>
+      </class>
+    </classes>
+    </test>
+ 
+</suite> 
+ 

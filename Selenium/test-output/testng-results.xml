@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T20:05:52Z" name="Suite" finished-at="2022-02-08T20:05:52Z" duration-ms="13">
+    <groups>
+      <group name="snaity">
+        <method signature="Executable.testcase2()[pri:0, instance:SeleniumTutorialPractice.Executable@51fadaff]" name="testcase2" class="SeleniumTutorialPractice.Executable"/>
+      </group> <!-- snaity -->
+      <group name="regression">
+        <method signature="Executable.testcase1()[pri:0, instance:SeleniumTutorialPractice.Executable@51fadaff]" name="testcase1" class="SeleniumTutorialPractice.Executable"/>
+        <method signature="Executable.testcase2()[pri:0, instance:SeleniumTutorialPractice.Executable@51fadaff]" name="testcase2" class="SeleniumTutorialPractice.Executable"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-02-08T20:05:52Z" name="Test" finished-at="2022-02-08T20:05:52Z" duration-ms="13">
+      <class name="SeleniumTutorialPractice.Executable">
+        <test-method is-config="true" signature="beforeSetup()[pri:0, instance:SeleniumTutorialPractice.Executable@51fadaff]" started-at="2022-02-09T01:35:52Z" name="beforeSetup" finished-at="2022-02-09T01:35:52Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSetup -->
+        <test-method signature="testcase1()[pri:0, instance:SeleniumTutorialPractice.Executable@51fadaff]" started-at="2022-02-09T01:35:52Z" name="testcase1" finished-at="2022-02-09T01:35:52Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2()[pri:0, instance:SeleniumTutorialPractice.Executable@51fadaff]" started-at="2022-02-09T01:35:52Z" name="testcase2" finished-at="2022-02-09T01:35:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method is-config="true" signature="afterSetup()[pri:0, instance:SeleniumTutorialPractice.Executable@51fadaff]" started-at="2022-02-09T01:35:52Z" name="afterSetup" finished-at="2022-02-09T01:35:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSetup -->
+      </class> <!-- SeleniumTutorialPractice.Executable -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

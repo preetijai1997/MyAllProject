@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestFailedRunSuite">
+<listeners>
+<listener class-name="analyzer.MyTransform"></listener>
+
+</listeners>
+  <test name="Test">
+  
+    <classes>
+      <class name="com.retryanalyzer.MyTest"/>
+    
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

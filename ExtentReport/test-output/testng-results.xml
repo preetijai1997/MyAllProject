@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-08T12:10:05 IST" name="Suite" finished-at="2022-01-08T12:10:06 IST" duration-ms="650">
+    <groups>
+    </groups>
+    <test started-at="2022-01-08T12:10:05 IST" name="LogoutTest" finished-at="2022-01-08T12:10:06 IST" duration-ms="561">
+      <class name="extent_professional.LogoutTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:extent_professional.LogoutTest@543588e6]" started-at="2022-01-08T12:10:05 IST" name="initialize" finished-at="2022-01-08T12:10:05 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Testing()[pri:0, instance:extent_professional.LogoutTest@543588e6]" started-at="2022-01-08T12:10:05 IST" name="Testing" finished-at="2022-01-08T12:10:05 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:extent_professional.LogoutTest@543588e6]" started-at="2022-01-08T12:10:05 IST" name="finish" finished-at="2022-01-08T12:10:06 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- extent_professional.LogoutTest -->
+    </test> <!-- LogoutTest -->
+    <test started-at="2022-01-08T12:10:06 IST" name="LoginTest1" finished-at="2022-01-08T12:10:06 IST" duration-ms="27">
+      <class name="extent_professional.LoginTest1">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:extent_professional.LoginTest1@61001b64]" started-at="2022-01-08T12:10:06 IST" name="initialize" finished-at="2022-01-08T12:10:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Testing()[pri:0, instance:extent_professional.LoginTest1@61001b64]" started-at="2022-01-08T12:10:06 IST" name="Testing" finished-at="2022-01-08T12:10:06 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:extent_professional.LoginTest1@61001b64]" started-at="2022-01-08T12:10:06 IST" name="finish" finished-at="2022-01-08T12:10:06 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- extent_professional.LoginTest1 -->
+    </test> <!-- LoginTest1 -->
+    <test started-at="2022-01-08T12:10:06 IST" name="Registration" finished-at="2022-01-08T12:10:06 IST" duration-ms="24">
+      <class name="extent_professional.Registration">
+        <test-method signature="Testing()[pri:0, instance:extent_professional.Registration@27f981c6]" started-at="2022-01-08T12:10:06 IST" name="Testing" finished-at="2022-01-08T12:10:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:extent_professional.Registration@27f981c6]" started-at="2022-01-08T12:10:06 IST" name="initialize" finished-at="2022-01-08T12:10:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:extent_professional.Registration@27f981c6]" started-at="2022-01-08T12:10:06 IST" name="finish" finished-at="2022-01-08T12:10:06 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- extent_professional.Registration -->
+    </test> <!-- Registration -->
+  </suite> <!-- Suite -->
+</testng-results>

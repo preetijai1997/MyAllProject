@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-26T18:44:04 IST" name="Default suite" finished-at="2023-03-26T18:44:19 IST" duration-ms="15567">
+    <groups>
+    </groups>
+    <test started-at="2023-03-26T18:44:04 IST" name="Default test" finished-at="2023-03-26T18:44:19 IST" duration-ms="15567">
+      <class name="testparameter.ParameterXMLThreadLocal">
+        <test-method signature="launchBrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testparameter.ParameterXMLThreadLocal@cc43f62]" started-at="2023-03-26T18:44:04 IST" name="launchBrowser" data-provider="getData" finished-at="2023-03-26T18:44:18 IST" duration-ms="14042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smitha.p@bankit.in]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smitha@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchBrowser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testparameter.ParameterXMLThreadLocal@cc43f62]" started-at="2023-03-26T18:44:04 IST" name="launchBrowser" data-provider="getData" finished-at="2023-03-26T18:44:19 IST" duration-ms="15446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8957181611]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[119705]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- testparameter.ParameterXMLThreadLocal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

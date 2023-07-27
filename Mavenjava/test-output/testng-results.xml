@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-01T23:53:49 IST" name="Suite" finished-at="2022-01-01T23:53:49 IST" duration-ms="52">
+    <groups>
+    </groups>
+    <test started-at="2022-01-01T23:53:49 IST" name="Test" finished-at="2022-01-01T23:53:49 IST" duration-ms="52">
+      <class name="Bankit.Mavenjava.SeleniumTest">
+        <test-method signature="BrowserTest()[pri:0, instance:Bankit.Mavenjava.SeleniumTest@7d9d0818]" started-at="2022-01-01T23:53:49 IST" name="BrowserTest" finished-at="2022-01-01T23:53:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTest -->
+        <test-method signature="HomePage()[pri:0, instance:Bankit.Mavenjava.SeleniumTest@7d9d0818]" started-at="2022-01-01T23:53:49 IST" name="HomePage" finished-at="2022-01-01T23:53:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+      </class> <!-- Bankit.Mavenjava.SeleniumTest -->
+      <class name="Bankit.Mavenjava.AppiumTest">
+        <test-method signature="FirstApp()[pri:0, instance:Bankit.Mavenjava.AppiumTest@5b218417]" started-at="2022-01-01T23:53:49 IST" name="FirstApp" finished-at="2022-01-01T23:53:49 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstApp -->
+        <test-method signature="SecondApp()[pri:0, instance:Bankit.Mavenjava.AppiumTest@5b218417]" started-at="2022-01-01T23:53:49 IST" name="SecondApp" finished-at="2022-01-01T23:53:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondApp -->
+      </class> <!-- Bankit.Mavenjava.AppiumTest -->
+      <class name="Bankit.Mavenjava.RestAssured">
+        <test-method signature="IOApp()[pri:0, instance:Bankit.Mavenjava.RestAssured@221a3fa4]" started-at="2022-01-01T23:53:49 IST" name="IOApp" finished-at="2022-01-01T23:53:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOApp -->
+        <test-method signature="IOApp1()[pri:0, instance:Bankit.Mavenjava.RestAssured@221a3fa4]" started-at="2022-01-01T23:53:49 IST" name="IOApp1" finished-at="2022-01-01T23:53:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOApp1 -->
+      </class> <!-- Bankit.Mavenjava.RestAssured -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

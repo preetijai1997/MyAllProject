@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-31T22:15:29 IST" name="TesNg" finished-at="2021-12-31T22:15:29 IST" duration-ms="67">
+    <groups>
+      <group name="Smoke">
+        <method signature="test3.HappyLoan(java.lang.String)[pri:0, instance:test3@73ee04c8]" name="HappyLoan" class="test3"/>
+        <method signature="test.Demo()[pri:0, instance:test@52102734]" name="Demo" class="test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-12-31T22:15:29 IST" name="Secondary" finished-at="2021-12-31T22:15:29 IST" duration-ms="63">
+      <class name="test2">
+        <test-method signature="AppLogin(java.lang.String,java.lang.String)[pri:0, instance:test2@76c3e77a]" started-at="2021-12-31T22:15:29 IST" name="AppLogin" data-provider="getData" finished-at="2021-12-31T22:15:29 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLogin -->
+        <test-method signature="AppLogin(java.lang.String,java.lang.String)[pri:0, instance:test2@76c3e77a]" started-at="2021-12-31T22:15:29 IST" name="AppLogin" data-provider="getData" finished-at="2021-12-31T22:15:29 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userFirstName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLogin -->
+        <test-method signature="AppLogin(java.lang.String,java.lang.String)[pri:0, instance:test2@76c3e77a]" started-at="2021-12-31T22:15:29 IST" name="AppLogin" data-provider="getData" finished-at="2021-12-31T22:15:29 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userSecondName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLogin -->
+        <test-method signature="MobileLogin(java.lang.String)[pri:0, instance:test2@76c3e77a]" started-at="2021-12-31T22:15:29 IST" name="MobileLogin" finished-at="2021-12-31T22:15:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondary.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method signature="WebLogin()[pri:0, instance:test2@76c3e77a]" started-at="2021-12-31T22:15:29 IST" name="WebLogin" finished-at="2021-12-31T22:15:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+      </class> <!-- test2 -->
+    </test> <!-- Secondary -->
+    <test started-at="2021-12-31T22:15:29 IST" name="Personal" finished-at="2021-12-31T22:15:29 IST" duration-ms="67">
+      <class name="test3">
+        <test-method signature="FundfinaLoan()[pri:0, instance:test3@73ee04c8]" started-at="2021-12-31T22:15:29 IST" name="FundfinaLoan" finished-at="2021-12-31T22:15:29 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FundfinaLoan -->
+        <test-method signature="HappyLoan(java.lang.String)[pri:0, instance:test3@73ee04c8]" started-at="2021-12-31T22:15:29 IST" name="HappyLoan" finished-at="2021-12-31T22:15:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HappyLoan -->
+      </class> <!-- test3 -->
+      <class name="test">
+        <test-method signature="Demo2(java.lang.String)[pri:0, instance:test@52102734]" started-at="2021-12-31T22:15:29 IST" name="Demo2" finished-at="2021-12-31T22:15:29 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personal.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+        <test-method signature="Demo()[pri:0, instance:test@52102734]" started-at="2021-12-31T22:15:29 IST" name="Demo" finished-at="2021-12-31T22:15:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Aemo3()[pri:0, instance:test@52102734]" started-at="2021-12-31T22:15:29 IST" name="Aemo3" finished-at="2021-12-31T22:15:29 IST" depends-on-methods="test.Demo2" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aemo3 -->
+      </class> <!-- test -->
+    </test> <!-- Personal -->
+  </suite> <!-- TesNg -->
+</testng-results>

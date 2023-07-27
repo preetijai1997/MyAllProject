@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-08T11:38:51 IST" name="AEPS" finished-at="2022-09-08T11:38:51 IST" duration-ms="51">
+    <groups>
+    </groups>
+    <test started-at="2022-09-08T11:38:51 IST" name="BBPS" finished-at="2022-09-08T11:38:51 IST" duration-ms="49">
+      <class name="Test.TesngDay1">
+        <test-method signature="BBPS()[pri:0, instance:Test.TesngDay1@130c12b7]" started-at="2022-09-08T11:38:51 IST" name="BBPS" finished-at="2022-09-08T11:38:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BBPS -->
+      </class> <!-- Test.TesngDay1 -->
+    </test> <!-- BBPS -->
+    <test started-at="2022-09-08T11:38:51 IST" name="AEPS Test" finished-at="2022-09-08T11:38:51 IST" duration-ms="42">
+      <class name="Test.TestngDay3">
+        <test-method signature="AEPS()[pri:0, instance:Test.TestngDay3@4d465b11]" started-at="2022-09-08T11:38:51 IST" name="AEPS" finished-at="2022-09-08T11:38:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AEPS -->
+        <test-method signature="AEPSServices()[pri:0, instance:Test.TestngDay3@4d465b11]" started-at="2022-09-08T11:38:51 IST" name="AEPSServices" finished-at="2022-09-08T11:38:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AEPSServices -->
+      </class> <!-- Test.TestngDay3 -->
+    </test> <!-- AEPS Test -->
+    <test started-at="2022-09-08T11:38:51 IST" name="DMT" finished-at="2022-09-08T11:38:51 IST" duration-ms="51">
+      <class name="Test.TesngDay2">
+        <test-method signature="AREMITDMT(java.lang.String)[pri:0, instance:Test.TesngDay2@3527942a]" started-at="2022-09-08T11:38:51 IST" name="AREMITDMT" finished-at="2022-09-08T11:38:51 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bankit.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AREMITDMT -->
+        <test-method signature="Yremit(java.lang.String,java.lang.String)[pri:0, instance:Test.TesngDay2@3527942a]" started-at="2022-09-08T11:38:51 IST" name="Yremit" data-provider="getData" finished-at="2022-09-08T11:38:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shobhit.rai@bankit.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Yremit -->
+        <test-method signature="Yremit(java.lang.String,java.lang.String)[pri:0, instance:Test.TesngDay2@3527942a]" started-at="2022-09-08T11:38:51 IST" name="Yremit" data-provider="getData" finished-at="2022-09-08T11:38:51 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[preeti.jaiswal@bankit.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Preeti@1197]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Yremit -->
+      </class> <!-- Test.TesngDay2 -->
+    </test> <!-- DMT -->
+  </suite> <!-- AEPS -->
+</testng-results>
